@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(34, 34, 116);
+}
+
+.navbar{
+    background-color: rgb(34, 34, 116);
+    display: flex;
+    justify-content: center;
+}
+.navbar .collapse ul li a{
+    color: #ffff;
+    font-size: larger;
+    margin-top: 10px;
+}
+
+#solar{
+font-size: xx-large;
+background-color: skyblue;
+}
+
+
+.navbar .collapse ul{
+    align-items: center;
+}
+
+.slider-img{
+    position: relative;
+    filter: brightness(50%);
+}
+.text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: #ffff;
+    text-align: center;
+    transform: translate(-50%,-50%);
+   
+}
+
+.text h4{
+    justify-content: center;
+}
+.text h3{
+    font-size: 80px;
+}
+
+
+.about .container-fluid img{
+    width: 75%;
+}
+.about .container-fluid h6{
+    color: #10abe9;
+}
+.solar-about{
+    margin-top: 100px;
+}
+.text-about{
+    margin-top: 125px;
+}
+.solar-about .text-about h1{
+    color: #22224b;
+}
+
+.solar-services img{
+    width: 80%;
+}
+.solar-services {
+    margin-top: 150px;
+}
+.solar-services .text-services{
+    display: flex;
+    justify-content: center;
+}
+.solar-services .text-services h6{
+ position: absolute;
+ text-align: center;
+ transform: translate(-50%,-50%);
+padding-bottom: 60px;
+}
+
+.solar-services  .text-cover h3{
+    display: flex;
+    justify-content: center;
+}
+.photo-gallery img{
+    width: 100%;
+    filter: brightness(50%);
+}
+.photo-gallery{
+    margin-top: 100px;
+}
+.photo-title{
+    text-align: center;
+position: relative;
+color: #ffff;
+
+}
+.photo-title h6{
+    color:  #10abe9;
+}
+.photo-title .btn{
+    background-color: #ffff;
+}
+.photo-title .btn .fa-solid{
+    color: #2d41f3;
+}
+.meet-team .meet-title{
+    position: relative;
+    text-align: center;
+    color: #222274;
+   font-size: xxx-large;
+}
+.meet-team .meet-title h6{
+    color: #10abe9;
+}
+.person{
+    background-color: #f3f6ff;
+    position: relative;
+    text-align: center;
+}
+.col-3 img{
+    width: 80%;
+}
+ .faqs-title{
+    text-align: center;
+position: relative;
+color: rgb(47, 31, 31);
+}
+.faqs h6{
+color: #10abe9;
+}
+.faqs h1{
+    font-size: xxx-large;
+   color: #222274;
+   
+}
+.faqs{
+    margin-top: 150px;
+}
+.faqs .faqs-question .faqs-text{
+    display: flex;
+    justify-content: center;
+    color: #22395d;
+    margin-top: 40px;
+}
+.faqs .faqs-question .faqs-text .content{
+    text-align: right;
+}
+
+.faqs .faqs-question .faqs-text i{
+    color: #28a745;
+}
+.testimional{
+    margin-top: 100px;
+}
+.testimional-title{
+    text-align: center;
+position: relative;
+}
+
+.testimional .carousel-inner .carousel-item img{
+    width: 6%;
+    text-align: center  ;
+}
+
+.contact .contact-title{
+    text-align: center;
+    position: relative;
+    color: #22395d;
+    font-size: larger;
+}
+.contact .contact-title h6{
+    color: #10abe9;
+}
+.contact .btn{
+    position: relative;
+    text-align: center;
+}
+
+.theend{
+    background-color: #22395d;
+    margin-top: 100px;
+}
+.theend .text-center h5{
+    color: #10abe9;
+}
+.theend .text-center{
+    color: #ffff ;
+}
+.theend .content-end{
+    color: antiquewhite;
+}
+.bio-end{
+    background-color: #22395d;
+    text-align: center;
+}
+.theend .title-end h5{
+   color: #10abe9;
+}
